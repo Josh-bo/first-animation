@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@keyframes popp {
+    100% {
+        transform: translateX(-1966px);
+    }
+}
+
+@keyframes pop {
+    100% {
+        transform: translateX(-1966px);
+    }
+}
+@keyframes popo {
+    100% {
+        transform: translateX(1966px);
+    }
+}
+
+@keyframes popopo {
+    100% {
+        transform: translateX(1966px);
+    }
+}
+
+@keyframes car {
+    100% {
+        transform: translateX(1966px);
+    }
+}
+
+@keyframes cup {
+    100% {
+        transform: translateX(-2966px);
+    }
+}
+.car1 {
+    height: 207px;
+    width: 100vw;
+    background: url(/cart-removebg-preview.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    /* bottom: 160px; */
+    top: 3.8in;
+    right: -1500px;
+    animation: pop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.car2 {
+    height: 150px;
+    width: 100vw;
+    background: url(/car2.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    bottom: 50px;
+    left: -400px;
+    animation: popo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    background: url(/road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.by1 {
+    height: 150px;
+    width: 100vw;
+    background: url(/by1.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    /* bottom: 25px; */
+    top: 2.8in;
+    left: -400px;
+    animation: popopo;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.by2{
+    height: 150px;
+    width: 100vw;
+    background: url(/by2.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    /* bottom: 5px; */
+    top: 2.9in;
+    left: -400px;
+    animation: popopo;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.car3 { 
+    height: 150px;
+    width: 100vw;
+    background: url(/car3.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    /* bottom: 30px; */
+    top: 4.7in;
+    left: -400px;
+    animation: car;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+.car4 { 
+    height: 150px;
+    width: 200vw;
+    background: url(/car4.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    top: 3in;
+    right: -2700px;
+    animation: cup;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.car6 {
+    height: 207px;
+    width: 100vw;
+    background: url(/cart-removebg-preview.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    /* bottom: 160px; */
+    bottom: 180px;
+    right: -1500px;
+    animation: popp;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* .box-vehicles{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #021214;
+    box-sizing: border-box;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 303px;
+    background: url(/asset/css_animasi/ilustrasion-scene.png) center bottom no-repeat;
+    background-size: cover;
+} */
